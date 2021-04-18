@@ -187,7 +187,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}ttp3d*
 ║
 ╠══─⊱ ❰ *FUN MENU* ❱ ⊰─════➤
-╠☞ *${prefix}mutual*
+╠☞ *${prefix}apa*
 ╠☞ *${prefix}next*
 ╠☞ *${prefix}mining*
 ╠☞ *${prefix}bisakah*
@@ -233,42 +233,11 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ╠☞ *${prefix}stalkig*
 ╠☞ *${prefix}qrcode*
 ╠☞ *${prefix}wait*
-║    
-╠══─⊱ ❰ *DUNIA WIBU* ❱ ⊰─═══➤
-╠☞ *${prefix}husbu*
-╠☞ *${prefix}loli*
-╠☞ *${prefix}loli2*
-╠☞ *${prefix}shota*
-╠☞ *${prefix}neko*
-╠☞ *${prefix}nekopoi*
-╠☞ *${prefix}nekonime*
-╠☞ *${prefix}ranime*
-╠☞ *${prefix}randomhentong*
-╠☞ *${prefix}blowjob*
-╠☞ *${prefix}nsfwloli*
-╠☞ *${prefix}nsfwneko*
-╠☞ *${prefix}hentai*
-╠☞ *${prefix}animekiss*
-║    
-║───────⟪  CHARACTER ANIME ⟫───────
-║     *[ERROR KABEH]*
-╠☞ *${prefix}naruto*
-╠☞ *${prefix}boruto*
-╠☞ *${prefix}sasuke*
-╠☞ *${prefix}hinata*
-╠☞ *${prefix}sakura*
-╠☞ *${prefix}minato*
-╠☞ *${prefix}kurumi*
-╠☞ *${prefix}miku*
 ║ 
 ╠══─⊱ ❰ *LIMIT MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}limit*
 ╠☞ *${prefix}buylimit*
 ╠☞ *${prefix}dompet*
-║
-╠══─⊱ ❰ *NSFW MENU* ❱ ⊰─═══➤
-╠☞ *${prefix}pokemon*
-╠☞ *${prefix}anjing*
 ║
 ╠══─⊱ ❰ *GROUP MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}hidetag*
@@ -343,6 +312,6 @@ exports.satukos = () => {
 	return`*Tambah parameter 1/enable atau 0/disable`
 }
 
-exports.uangkau = (pushname, sender, uangkau) => {
-	return`*┏⊱ *「 ATM 」* ━┓\n┣⊱ *Nama* : ${pushname}\n┣⊱ *Nomer* : ${sender.split("@")[0]}\n┣⊱ *Uang* : ${uangkau}\n┗━━━━━━━━━━`
+exports.uangkau = (BLUE LIGHT, sender, uangkau) => {
+	return`*┏⊱ *「 ATM 」* ━┓\n┣⊱ *Nama* : ${BLUE LIGHT}\n┣⊱ *Nomer* : ${sender.split("@")[0]}\n┣⊱ *Uang* : ${uangkau}\n┗━━━━━━━━━━`
 }
