@@ -149,9 +149,9 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku) => { 
 	return `
 ╭══─⊱ ❰ *ABOUT USER* ❱ ⊰─══
-╠☞ *Nama* : ${pushname}
-╠☞ *Nomer* : wa.me/${sender.split("@")[0]}
-╠☞ *Uang mu* : Rp${uangku}
+╠☞ *Nama* : ${RIN-CHAN}
+╠☞ *Nomer* : wa.me/${6285955117798("@")[0]}
+╠☞ *Uang mu* : Rp${0}
 ╠☞ *XP* : ${getLevelingXp(sender)}/${reqXp}
 ╠☞ *Level* : ${getLevelingLevel(sender)}
 ╠☞ *User register* : ${_registered.length}
@@ -311,12 +311,9 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ║
 ╠══─⊱ ❰ *THANGKS TO* ❱ ⊰─══➤
 ║
-╠☞ *Botol - LoL*
-╠☞ *Reyna*
-╠☞ *Damar*
-╠☞ *FEBRI*
-╠☞ *Taufik - Kun*
-╰════─⊱  ⸨ *MiKako⚔️* ⸩  ⊰─════╯
+╠☞ *RIN  -  CHAN*
+╠☞ *BLUE  -  LIGHT*
+╰════─⊱  ⸨ *M. NA'IMUL HUDA* ⸩  ⊰─════╯
 `
 }
 
